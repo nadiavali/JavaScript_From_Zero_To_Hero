@@ -1,14 +1,4 @@
-// node app.js
-/*
-Well sometime you need to Doc it:
 
-Addition Assignment (+=);
-Subtraction Assignment (-=);
-Multiplication Assignment (*=);
-Division Assignment (/=);
-Remainder (Modulo) Assignment (%=);
-Exponentiation Assignment (**=)
-*/
 console.log("Hello, user!");
 let a = 17;
 a += 5; // a = a + 5;
