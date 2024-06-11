@@ -1,30 +1,30 @@
 # JavaScript
 
-## How to Run
+## How to Run: ```bash : node app.js
 
-To run the application, execute the following command:
-```bash
-node app.js
+What I learned in Jvs:
 
 Variables and Constants
-
 Variable (let): Named storage of a value for multiple usages.
 Constant (const): An unchangeable variable.
-Data Types
 
+
+Data Types
 Number: A numeric data type.
 String: A text data type, written in quotes (" or ').
 Boolean: A logical data type (true or false).
 Array: A collection of values. Common methods include push(), pop(), unshift(), and shift().
-Basic Operations
 
+
+Basic Operations
 Assignment: =
 Math: +, -, *, etc.
 Comparison: >=, <, ==, ===, etc.
 Logical: AND (&&), OR (||)
 String Concatenation: + between strings
-Conditional Statements
 
+
+Conditional Statements
 if:
 javascript
 Copy code
@@ -43,8 +43,9 @@ Copy code
 else if (condition) {
     // code block
 }
-Loops
 
+
+Loops
 while:
 javascript
 Copy code
@@ -63,8 +64,9 @@ Copy code
 for (let counter; condition; counter++) {
     // code block
 }
-Functions
 
+
+Functions
 Define a function:
 javascript
 Copy code
