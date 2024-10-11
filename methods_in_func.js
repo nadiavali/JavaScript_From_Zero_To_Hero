@@ -41,3 +41,31 @@ function sumOfTripledEvens(array) {
       .reduce((acc, curr) => acc + curr);
   }
   
+
+  /** 
+   * Write a program that takes a user’s input and prints the numbers
+   *  from one to the number the user entered. However, for multiples of three
+   *  print Fizz instead of the number and for the multiples of five print Buzz. 
+   * For numbers which are multiples of both three and five print FizzBuzz.
+   */
+const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+  
+function FizzBuzz(input_number){
+  if (input_number % 3 ==0 && input_number % 5 ===0){
+    return 'FizzBuzz'
+  } else if (input_number % 5 === 0){
+    return 'Buzz'
+  } else if (input_number % 3 === 0){
+    return 'Fizz'
+  } else {
+    return input_number
+  };
+};
+readline.question('Enter a number: ', usernum => {
+  const input_number = parseInt(usernum, 10);
+  console.log(FizzBuzz(input_number));
+  readline.close();
+});
