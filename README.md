@@ -83,4 +83,35 @@ Copy code
 function myFunc() {
     return value;
 }
+Advanced Array Methods:
+
+map():
+The map() method creates a new array by applying a function to each element in the original array.
+
+Usage:
+const arr = [1, 2, 3, 4];
+const tripled = arr.map(num => num * 3);
+console.log(tripled); // [3, 6, 9, 12]
+In this example, each number in arr is multiplied by 3, and the result is stored in the tripled array.
+
+filter():
+The filter() method creates a new array with all elements that pass a test implemented by a function.
+
+Usage:
+const arr = [1, 2, 3, 4, 5];
+const evens = arr.filter(num => num % 2 === 0);
+console.log(evens); // [2, 4]
+Here, only the even numbers from the array are selected to create a new array.
+
+reduce():
+The reduce() method executes a reducer function on each element of the array, resulting in a single output value.
+
+Usage:
+const arr = [1, 2, 3, 4];
+const sum = arr.reduce((accumulator, currentValue) => {
+    return accumulator + currentValue;
+}, 0);
+console.log(sum); // 10
+In this case, reduce() adds all the numbers in the array, with an initial value of 0 for the accumulator.
+
 
