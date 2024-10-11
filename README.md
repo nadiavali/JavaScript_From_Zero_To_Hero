@@ -6,7 +6,8 @@ What I learned in Jvs:
 
 Variables and Constants:
 Variable (let): Named storage of a value for multiple usages.
-Constant (const): An unchangeable variable.
+Constant (const): An unchangeable variable.(can’t re-assign and will throw an error if we try)
+var:(Do not use it anymore!!!)
 
 
 Data Types:
@@ -26,20 +27,17 @@ String Concatenation: + between strings
 
 Conditional Statements:
 if:
-javascript
-Copy code
+
 if (condition) {
     // code block
 }
 else:
-javascript
-Copy code
+
 else {
     // code block
 }
 else if:
-javascript
-Copy code
+
 else if (condition) {
     // code block
 }
@@ -47,20 +45,17 @@ else if (condition) {
 
 Loops:
 while:
-javascript
-Copy code
+
 while (condition) {
     // code block
 }
 do-while:
-javascript
-Copy code
+
 do {
     // code block
 } while (condition);
 for:
-javascript
-Copy code
+
 for (let counter; condition; counter++) {
     // code block
 }
@@ -68,18 +63,15 @@ for (let counter; condition; counter++) {
 
 Functions:
 Define a function:
-javascript
-Copy code
+
 function myFunc(arg1, arg2, arg3) {
     // code block
 }
 Call the function:
-javascript
-Copy code
+
 myFunc(value1, value2, value3);
 Use the return keyword to return a value from a function:
-javascript
-Copy code
+
 function myFunc() {
     return value;
 }
